@@ -1,16 +1,24 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<<<<<<< Updated upstream
     <div class="container-fluid">
         <a href="#" class="navbar-brand">Recipe Book</a>
+=======
+    <!-- <div class="container-fluid"> -->
+        <a class="navbar-brand">Recipe Book</a>
+>>>>>>> Stashed changes
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse show">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Recipes</a>
+            <ul class="navbar-nav mr-auto nav nav-tabs">
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="/">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shopping List</a>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="/recipes">Recipes</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a class="nav-link" routerLink="/shopping-list" >Shopping List</a>
                 </li>
                 
                     <ul class="dropdown-menu">
